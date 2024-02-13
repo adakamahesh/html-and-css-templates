@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.left{
+    width:15%;
+    height: 675px;
+    background:rgb(42,42,42);
+    color: white;
+    line-height: 80px;
+}
+li{
+    list-style: none;
+}
+.first-line{
+    background:rgb(51, 51,51);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    gap: 10px;
+}
+.fa-location-dot{
+    color: red;
+    font-size: 25px;
+}
+.mesg{
+    background: green;
+    border-radius:50%;
+    padding: 0px 15px;
+}
+.left-head{
+    line-height: 40px;
+}
+.left-mid{
+    line-height: 40px;
+}
+.left-fotter{
+    line-height: 40px;
+}
+.d-f-items-center{
+    display: flex;
+    align-items: flex-start;
+}
+.d-f-items{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
