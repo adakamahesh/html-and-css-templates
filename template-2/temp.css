@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 .left{
-    width:15%;
+    width:20%;
     height: 675px;
     background:rgb(42,42,42);
     color: white;
@@ -22,7 +22,10 @@ li{
 }
 .fa-location-dot{
     color: red;
-    font-size: 25px;
+    font-size: 30px;
+}
+.border{
+    border: none;
 }
 .mesg{
     background: green;
@@ -40,10 +43,62 @@ li{
 }
 .d-f-items-center{
     display: flex;
-    align-items: flex-start;
+    align-items:normal;
 }
 .d-f-items{
     display:flex;
     align-items: center;
     gap: 10px;
+}
+.temp{
+    width: 100%;
+}
+.right{
+    background: whitesmoke;
+    width: 80%;
+}
+.top-main{
+    display: flex;
+    justify-content:space-around;
+    background:white;
+}
+.top-right2{
+    margin-left: 550px;
+    display:flex;
+}
+.top-right1{
+    padding: 28px;
+    display: flex;
+    gap: 15px;
+}
+.add-list{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: red;
+    border-width: 3px;
+    color: red;
+}
+.color{
+    color: red;
+}
+.right h1{
+    padding: 20px 30px;
+}
+.top-2 p{
+    font-weight: 100;
+    word-spacing: 10px;
+    color: rgb(120,120,120);
+    margin-left: 775px;
+}
+.top-2-right{
+    padding: 10px;
+    margin: 25px;
+    color: #81c02f;
+    background: #d4f0b9;
+    border-radius: 5px;
+}
+.fa-xmark{
+    color: green;
+    margin-left: 770px;
 }
