@@ -30,7 +30,7 @@ li{
 .mesg{
     background: green;
     border-radius:50%;
-    padding: 0px 15px;
+    padding: 2px 4px;
 }
 .left-head{
     line-height: 40px;
@@ -78,6 +78,7 @@ li{
     border-color: red;
     border-width: 3px;
     color: red;
+    border-style: solid;
 }
 .color{
     color: red;
@@ -101,4 +102,96 @@ li{
 .fa-xmark{
     color: green;
     margin-left: 770px;
+}
+.right-mid{
+    padding: 10px;
+    margin-left: 25px;
+    width: 22.4%;
+    height: 150px;
+    color: #d4f0b9;
+}
+.right-mid p{
+    padding-left:30px;
+    width: 50%;
+    padding-bottom: 20px;
+}
+.right-mid h1{
+    padding-bottom: 5px;
+}
+.box-1{
+    background:#65BC37;
+}
+.box-2{
+    background: #353841;
+}
+.box-3{
+    background: #FFAF0c;
+}
+.box-4{
+    background: #F20F3C;
+}
+.box{
+    display: flex;
+}
+.fa-map{
+    font-size: 80px;
+    padding-top: 30px;
+    padding-left: 15px;
+    color: #8AD86B;
+}
+.heart i{
+    font-size: 80px;
+    padding-top: 30px;
+    color: #FF546F;
+}
+.fa-circle-user{
+    font-size: 80px;
+    padding-top: 30px;
+    padding-left: 20px;
+    color: #FFBD30;
+}
+.fa-chart-line{
+    font-size: 80px;
+    padding-top: 30px;
+    padding-left: 25px;
+    color: #646670;
+}
+.right-foter-1{
+    padding: 25px;
+    margin-top: 15px;
+    width: 51%;
+}
+.right-foter{
+    display: flex;
+    width: 100%;
+}
+.r-f{
+    background: white;
+    padding: 20px;
+    margin-bottom: 3px;
+}
+.r-f-1{
+    background: white;
+    padding: 20px;
+    margin-bottom: 3px;
+}
+.r-f-1 i{
+    background: #EEEEEE;
+    border-radius: 50%;
+    padding: 10px;
+}
+span{
+    background:#6CB747;
+    color: white;
+    padding: 1px 5px;
+    border-radius: 8px;
+}
+.right-foter-2{
+    padding: 25px;
+    margin-top: 15px;
+    width: 51%;
+}
+.right-foter-2 h3{
+    background: white;
+    padding: 20px;
 }
