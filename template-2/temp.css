@@ -30,7 +30,7 @@ li{
 .mesg{
     background: green;
     border-radius:50%;
-    padding: 2px 4px;
+    padding: 2px 6px;
 }
 .left-head{
     line-height: 40px;
@@ -109,6 +109,7 @@ li{
     width: 22.4%;
     height: 150px;
     color: #d4f0b9;
+    display: flex;
 }
 .right-mid p{
     padding-left:30px;
@@ -122,17 +123,17 @@ li{
     background:#65BC37;
 }
 .box-2{
-    background: #353841;
+    background:#353841;
 }
 .box-3{
-    background: #FFAF0c;
+    background:#FFAF0c;
 }
 .box-4{
     background: #F20F3C;
 }
-.box{
+/*.box{
     display: flex;
-}
+}*/
 .fa-map{
     font-size: 80px;
     padding-top: 30px;
@@ -191,7 +192,27 @@ span{
     margin-top: 15px;
     width: 51%;
 }
-.right-foter-2 h3{
+.r2-f{
     background: white;
     padding: 20px;
+    margin-bottom: 3px;
+}
+.r2-f-1{
+    background: white;
+    padding: 20px;
+    margin-bottom: 3px;
+}
+.r2-f-1 i{
+    padding: 10px;
+    background: #EEEEEE;
+    border-radius: 50%;
+}
+span1{
+    color: red;
+}
+span2{
+    color: green;
+}
+.r2-f-1 p{
+    font-weight: 400;
 }
