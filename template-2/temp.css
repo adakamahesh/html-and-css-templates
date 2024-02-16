@@ -7,10 +7,9 @@
     height: 675px;
     background:rgb(42,42,42);
     color: white;
-    line-height: 80px;
-}
-li{
-    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 .first-line{
     background:rgb(51, 51,51);
@@ -18,7 +17,12 @@ li{
     display: flex;
     align-items: center;
     padding-left: 30px;
+    height: 80px;
     gap: 10px;
+}
+.dashboard{
+    background: #333333;
+    height: 30px;
 }
 .fa-location-dot{
     color: red;
@@ -29,17 +33,31 @@ li{
 }
 .mesg{
     background: green;
-    border-radius:50%;
     padding: 2px 6px;
+    border-radius:50%;
+
 }
 .left-head{
-    line-height: 40px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .left-mid{
-    line-height: 40px;
+     padding-left: 50px; 
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+}
+.fa-chevron-down{
+    padding-left: 120px;
+    font-size: 10px;
 }
 .left-fotter{
-    line-height: 40px;
+     padding-left: 50px; 
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
 }
 .d-f-items-center{
     display: flex;
@@ -75,9 +93,10 @@ li{
     padding: 10px;
     border-radius: 20px;
     border-color: red;
-    border-width: 3px;
+    border-width: 2px;
     color: red;
     border-style: solid;
+    background: white;
 }
 .color{
     color: red;
@@ -96,14 +115,12 @@ li{
     margin: 25px;
     color: #81c02f;
     background: #d4f0b9;
-    border-radius: 5px;
 }
 .fa-xmark{
     color: green;
     margin-left: 770px;
 }
 .right-mid{
-    /* padding: 10px; */
     margin-left: 25px;
     width: 22.4%;
     height: 150px;
@@ -120,15 +137,19 @@ li{
 }
 .box-1{
     background: linear-gradient(to right,#5da03c, #2b6909);
+    border-radius: 3px;
 }
 .box-2{
     background:linear-gradient(to right,#454851, #1d2027);
+    border-radius: 3px;
 }
 .box-3{
     background:linear-gradient(to right,#FEC461, #FFAF02);
+    border-radius: 3px;
 }
 .box-4{
     background:linear-gradient(to right,#F6324E, #F20F3C);
+    border-radius: 3px;
 }
 .fa-map{
     font-size: 80px;
@@ -166,6 +187,7 @@ li{
     background: white;
     padding: 20px;
     margin-bottom: 3px;
+    border-radius: 5px;
 }
 .r-f-1{
     background: white;
@@ -192,6 +214,7 @@ span{
     background: white;
     padding: 20px;
     margin-bottom: 3px;
+    border-radius: 5px;
 }
 .r2-f-1{
     background: white;
