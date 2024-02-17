@@ -46,15 +46,11 @@ button{
 .right h1{
     color: green;
 }
-.right p{
-    padding-top: 20px;
-    font-size: 20px;
-}
 a{
     text-decoration: none;
     padding: 10px;
 }
-.left a:hover{
+a:hover{
     background: rgb(88, 88, 172);
 }
 .top-right button{

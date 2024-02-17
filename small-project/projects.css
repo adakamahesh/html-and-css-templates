@@ -9,7 +9,6 @@
     justify-content: space-between;
     background: rgb(100, 99, 99);
     align-items: center;
-    height: 15vh;
 }
 .top-left{
     display: flex;
@@ -31,9 +30,9 @@ button{
     padding: 20px;
     font-size: 20px;
     width: 15%;
-    height: 85vh;
+    height: 500px;
     background: rgb(100, 99, 99);
-    margin-top: 1px;
+    margin-top: 5px;
 }
 .main{
     display: flex;
@@ -46,18 +45,10 @@ button{
 .right h1{
     color: green;
 }
-.right p{
-    padding-top: 20px;
-    font-size: 20px;
-}
 a{
     text-decoration: none;
     padding: 10px;
 }
-.left a:hover{
+a:hover{
     background: rgb(88, 88, 172);
-}
-.top-right button{
-    background: wheat;
-    border-radius: 5px;
 }

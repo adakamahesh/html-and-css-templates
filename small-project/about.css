@@ -43,18 +43,20 @@ button{
     padding: 40px;
     width: 85%;
 }
-.right h1{
+.head{
     color: green;
+    display: flex;
+    justify-content: center;
 }
 .right p{
-    padding-top: 20px;
+    padding-top: 30px;
     font-size: 20px;
 }
 a{
     text-decoration: none;
     padding: 10px;
 }
-.left a:hover{
+a:hover{
     background: rgb(88, 88, 172);
 }
 .top-right button{
