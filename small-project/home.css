@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(100, 99, 99);
+    align-items: center;
+}
+.top-left{
+    display: flex;
+    gap: 10px;
+}
+.fa-cruzeiro-sign{
+    font-size: 40px;
+    color: red;
+}
+button{
+    font-size: 20px;
+    border: none;
+    padding: 5px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    width: 15%;
+    height: 500px;
+    background: rgb(100, 99, 99);
+    margin-top: 5px;
+}
+.main{
+    display: flex;
+    width: 100%;
+}
+.right{
+    padding: 40px;
+    width: 85%;
+}

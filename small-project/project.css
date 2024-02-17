@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Login{
+    background-image: url(lap.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 140px;
+    align-items: center;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+input{
+    padding: 8px;
+}
+.buttons{
+    display: flex;
+    gap: 150px;
+    padding-top: 25px;
+}
+.user-inf{
+    border-color: gray;
+    border-style: solid;
+    padding: 50px;
+    border-radius: 5px;
+}
