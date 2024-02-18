@@ -7,8 +7,9 @@
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    background: rgb(100, 99, 99);
+    background: whitesmoke;
     align-items: center;
+    height: 15vh;
 }
 .top-left{
     display: flex;
@@ -30,9 +31,9 @@ button{
     padding: 20px;
     font-size: 20px;
     width: 15%;
-    height: 500px;
-    background: rgb(100, 99, 99);
-    margin-top: 5px;
+    height: 100vh;
+    background:whitesmoke;
+    margin-top: 1px;
 }
 .main{
     display: flex;
@@ -49,6 +50,79 @@ a{
     text-decoration: none;
     padding: 10px;
 }
-a:hover{
+.left a:hover{
     background: rgb(88, 88, 172);
+}
+.top-right button{
+    background: wheat;
+    border-radius: 5px;
+}
+.right-main{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+.one{
+    background: whitesmoke;
+    border-radius: 5px;
+    width: 30%;
+    height: 25vh;
+}
+.two{
+    background: whitesmoke;
+    border-radius: 5px;
+    height: 25vh;
+    width: 30%;
+}
+.three{
+    background: whitesmoke;
+    border-radius: 5px;
+    width: 30%;
+    height: 25vh;
+}
+.four{
+    background: whitesmoke;
+    border-radius: 5px;
+    width: 30%;
+    height: 25vh;
+}
+.five{
+    background: whitesmoke;
+    border-radius: 5px;
+    width: 30%;
+    height: 25vh;
+}
+.six{
+    background: whitesmoke;
+    border-radius: 5px;
+    width: 30%;
+    height: 25vh;
+}
+.seven{
+    background: whitesmoke;
+    border-radius: 5px;
+    width: 30%;
+    height: 25vh;
+}
+.eight{
+    background: whitesmoke;
+    border-radius: 5px;
+    width: 30%;
+    height: 25vh;
+}
+.nine{
+    background: whitesmoke;
+    border-radius: 5px;
+    width: 30%;
+    height: 25vh;
+}
+.d-f{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
