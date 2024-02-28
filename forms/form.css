@@ -1,0 +1,112 @@
+.forms form{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 35px; */
+}
+p{
+    padding-left: 95px;
+    margin: 0;
+    color: red;
+}
+span{
+    display: block;
+}
+span1{
+    padding-left: 95px;
+    color: rgb(63, 62, 62);
+}
+.fail{
+    margin-top: 10px;
+    padding-left: 60px;
+    display: flex;
+}
+.fail input{
+    border-color: red;
+}
+.Warning{
+    margin: 10px 0 10px 0;
+    padding-left: 30px;
+    display: flex;
+}
+.Warning input{
+    border-color: orange;
+}
+.Success{
+    margin: 10px 0 10px 0;
+    padding-left: 35px;
+    display: flex;
+}
+.Success input{
+    border-color: gray;
+}
+.validating{
+    margin-top: 10px;
+    padding-left: 20px;
+    display: flex;
+}
+.validating input{
+    border-color: gray;
+}
+.error{
+    margin-top: 10px;
+    padding-left: 50px;
+    display: flex;
+}
+.error input{
+    border-color: red;
+}
+input{
+    padding: 5px;
+    width: 24vw;
+    border:1px solid;
+    border-radius: 4px;
+}
+.fa-xmark{
+    background: red;
+    color: white;
+    padding: 3px 3px 0;
+    border-radius:50%;
+    font-size: 12px;
+    margin-left:-22px ;
+}
+.fa-check{
+    background: green;
+    color: white;
+    padding: 3px 3px 0;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-left: -22px;
+}
+.fa-exclamation{
+    background: orange;
+    color: white;
+    padding: 3px 7px 0;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-left: -22px;
+}
+.fa-clock{
+    color: gray;
+    font-size: 14px;
+    margin-left: -42px;
+}
+.fa-calendar{
+    color: gray;
+    font-size: 14px;
+    margin-left: -42px;
+}
+.fa-chevron-down{
+    color: red;
+    font-size: 14px;
+    margin-left: -42px;
+}
+.d-f-items{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.d-f{
+    display: flex;
+    align-items: center;
+}
