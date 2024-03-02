@@ -1,23 +1,35 @@
 const submit=document.getElementById("mysubmit").onclick=function() {
+    //first name
     const firstname=document.getElementById("first").value;
-    console.log(firstname);
+    console.log("Firstname:", firstname);
+    //last name
     const lastname=document.getElementById("last").value;
-    console.log(lastname)
+    console.log("Lastname:" ,lastname)
+    //date of birth
     const DOB=document.getElementById("dob").value;
-    console.log(DOB);
+    console.log("DOB:", DOB);
+    //email address
     const mail=document.getElementById('mail').value;
-    console.log(mail);
+    console.log("Email:",mail);
+    //mobil number
     const phone=document.getElementById("mobil").value;
-    console.log(phone);
-    const gender=document.getElementById('gender1').value;
-    // console.log(gender);
-    const gender1=document.getElementById('gender2').value;
-    if(gender.checked==male){
-    console.log(gender1);
+    console.log("Mobil no:",phone);
+    //select gender
+    var selectedGender = document.querySelector('input[name="gender"]:checked').value;
+    if(selectedGender){
+    console.log("Gender:",selectedGender);
     }
-    else{
-        console.log(gender);   
-    }
-    // const states=document.getElementByAll("select").value;
+    //address 
+    const address=document.getElementById('address').value;
+    console.log("Address:",address);
+    // const states=document.getElementById("select").value;
     // console.log(states);
+    var selectedHobbies = document.querySelectorAll('input[name="hobbies"]:checked');
+    var selectedValues = [];
+    selectedHobbies.forEach(function(checkbox) {
+        selectedValues.push(checkbox.value);
+      });
+     if(selectedValues.length>0) {
+        console.log("Hobbies:",selectedValues.join(","));
+     }   
 }
