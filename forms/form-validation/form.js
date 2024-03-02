@@ -22,8 +22,10 @@ const submit=document.getElementById("mysubmit").onclick=function() {
     //address 
     const address=document.getElementById('address').value;
     console.log("Address:",address);
-    // const states=document.getElementById("select").value;
-    // console.log(states);
+    //select states
+    const states=document.getElementById("state").value;
+    console.log("State:",states);
+    //select hobbies
     var selectedHobbies = document.querySelectorAll('input[name="hobbies"]:checked');
     var selectedValues = [];
     selectedHobbies.forEach(function(checkbox) {
