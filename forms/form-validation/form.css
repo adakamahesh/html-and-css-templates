@@ -1,3 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    color: red;
+    display: none;
+    padding:10px 0 0 10%;
+}
 .forms form{
     padding-top: 40px;
     display: flex;
@@ -16,4 +26,9 @@
 }
 .hobbies{
     display: flex;
+}
+.address{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
