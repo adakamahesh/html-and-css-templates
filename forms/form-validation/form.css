@@ -8,6 +8,11 @@ p{
     display: none;
     padding:10px 0 0 10%;
 }
+.d-f-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .forms form{
     padding-top: 40px;
     display: flex;
@@ -23,12 +28,13 @@ p{
 }
 .gender{
     display: flex;
+    flex-direction: column;
 }
 .hobbies{
     display: flex;
+    flex-direction: column;
 }
 .address{
     display: flex;
-    align-items: center;
-    gap: 5px;
+    flex-direction: column;
 }
